@@ -1,28 +1,21 @@
 body{
-    background-color: rgb(11, 14, 175);
+    background-color: chocolate;
 }
-header {
-    height: 70;
-    background-color: rgb(80, 216, 53);
-    display: flex; 
-   justify-content: space-around;
-   align-items: center;
+header{
+justify-content: space-around;
+display: flex;
+align-items: center;
+background-color: cornflowerblue;
 }
-h1{
-    font-size: 70px;
-    text-align: center;
-    color: rgb(199, 62, 176)
-
+ul{
+    display: flex;
+}
+li{
+    margin-left: 40px;
+    font-size: 20px;
+    list-style: none;
 }
 a{
-    color: rgb(248, 238, 246);
+    color: burlywood;
     text-decoration: none;
-}
-
-li{
-    display: inline-block;
-    font-size: 30px;
-    list-style: none;
-    margin-left: 2px;
-    margin-left: 40px;
 }
